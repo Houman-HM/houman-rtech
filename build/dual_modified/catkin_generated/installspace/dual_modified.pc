@@ -1,0 +1,8 @@
+prefix=/home/acer/houman-rtech/install
+
+Name: dual_modified
+Description: Description of dual_modified
+Version: 0.3.0
+Cflags: 
+Libs: -L/home/acer/houman-rtech/install/lib 
+Requires: 

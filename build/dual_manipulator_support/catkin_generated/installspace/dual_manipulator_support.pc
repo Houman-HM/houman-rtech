@@ -1,0 +1,8 @@
+prefix=/home/acer/houman-rtech/install
+
+Name: dual_manipulator_support
+Description: Description of dual_manipulator_support
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/acer/houman-rtech/install/lib 
+Requires: 

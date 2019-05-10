@@ -1,0 +1,8 @@
+prefix=/home/acer/houman-rtech/devel
+
+Name: dual_manipulator_config
+Description: Description of dual_manipulator_config
+Version: 0.3.0
+Cflags: 
+Libs: -L/home/acer/houman-rtech/devel/lib 
+Requires: 

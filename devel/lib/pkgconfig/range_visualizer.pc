@@ -1,0 +1,8 @@
+prefix=/home/acer/houman-rtech/devel
+
+Name: range_visualizer
+Description: Description of range_visualizer
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/acer/houman-rtech/devel/lib 
+Requires: 

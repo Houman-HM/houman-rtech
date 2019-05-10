@@ -1,0 +1,8 @@
+prefix=/home/acer/houman-rtech/install
+
+Name: ur3_e_moveit_config
+Description: Description of ur3_e_moveit_config
+Version: 1.2.5
+Cflags: 
+Libs: -L/home/acer/houman-rtech/install/lib 
+Requires: 

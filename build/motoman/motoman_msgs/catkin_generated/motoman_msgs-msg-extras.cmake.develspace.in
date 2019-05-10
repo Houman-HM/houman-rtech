@@ -1,0 +1,2 @@
+set(motoman_msgs_MESSAGE_FILES "/home/acer/houman-rtech/src/motoman/motoman_msgs/msg/DynamicJointPoint.msg;/home/acer/houman-rtech/src/motoman/motoman_msgs/msg/DynamicJointsGroup.msg;/home/acer/houman-rtech/src/motoman/motoman_msgs/msg/DynamicJointState.msg;/home/acer/houman-rtech/src/motoman/motoman_msgs/msg/DynamicJointTrajectory.msg;/home/acer/houman-rtech/src/motoman/motoman_msgs/msg/DynamicJointTrajectoryFeedback.msg")
+set(motoman_msgs_SERVICE_FILES "/home/acer/houman-rtech/src/motoman/motoman_msgs/srv/CmdJointTrajectoryEx.srv")

@@ -1,0 +1,8 @@
+prefix=/home/acer/houman-rtech/devel
+
+Name: my_r2d2
+Description: Description of my_r2d2
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/acer/houman-rtech/devel/lib 
+Requires: 
