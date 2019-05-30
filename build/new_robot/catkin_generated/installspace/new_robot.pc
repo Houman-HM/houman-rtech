@@ -1,0 +1,8 @@
+prefix=/home/acer/houman-rtech/install
+
+Name: new_robot
+Description: Description of new_robot
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/acer/houman-rtech/install/lib 
+Requires: 

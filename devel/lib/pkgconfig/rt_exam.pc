@@ -1,0 +1,8 @@
+prefix=/home/acer/houman-rtech/devel
+
+Name: rt_exam
+Description: Description of rt_exam
+Version: 0.0.0
+Cflags: -I/home/acer/houman-rtech/devel/include
+Libs: -L/home/acer/houman-rtech/devel/lib 
+Requires: 

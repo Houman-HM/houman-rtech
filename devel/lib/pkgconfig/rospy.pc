@@ -1,0 +1,8 @@
+prefix=/home/acer/houman-rtech/devel
+
+Name: rospy
+Description: Description of rospy
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/acer/houman-rtech/devel/lib 
+Requires: 

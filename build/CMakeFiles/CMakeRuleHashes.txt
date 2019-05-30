@@ -5,6 +5,8 @@ cc8e1437cf875ceb1d2f5b4ade0e036e /home/acer/houman-rtech/devel/include/motoman_m
 b2da167d8a394efd7431d6d5dd4c3028 /home/acer/houman-rtech/devel/include/motoman_msgs/DynamicJointTrajectory.h
 109ebbd529552afcf88c615a7e1b59d0 /home/acer/houman-rtech/devel/include/motoman_msgs/DynamicJointTrajectoryFeedback.h
 b4a7704d63b6c5ead41b228ab181b9f4 /home/acer/houman-rtech/devel/include/motoman_msgs/DynamicJointsGroup.h
+1fdbfbf8e65e8b59f333f2c70ca29101 /home/acer/houman-rtech/devel/include/rt_exam/move.h
+254659bdeafe9c43d1e9db9489418884 /home/acer/houman-rtech/devel/include/rt_exam/rotate.h
 b02e009ac18428a067e40e9169ef45e1 /home/acer/houman-rtech/devel/include/ur_driver/URDriverConfig.h
 6bc0fd9b542f4d0e186ba580cbf8c36c /home/acer/houman-rtech/devel/include/ur_msgs/Analog.h
 078f521e55537ef16596d883dddcbde0 /home/acer/houman-rtech/devel/include/ur_msgs/Digital.h
@@ -23,6 +25,10 @@ eb3710e2d9ec820ec9a2a0f41a57a402 /home/acer/houman-rtech/devel/lib/python2.7/dis
 cd8b3e01af14a5497e84ddef45a15528 /home/acer/houman-rtech/devel/lib/python2.7/dist-packages/motoman_msgs/msg/__init__.py
 73f42211523056544e787a5b30bf37c8 /home/acer/houman-rtech/devel/lib/python2.7/dist-packages/motoman_msgs/srv/_CmdJointTrajectoryEx.py
 3322e34b682cc7e8fe42c7aa9e05f61f /home/acer/houman-rtech/devel/lib/python2.7/dist-packages/motoman_msgs/srv/__init__.py
+259680c2f1e483c849411a6d96993e56 /home/acer/houman-rtech/devel/lib/python2.7/dist-packages/rt_exam/msg/__init__.py
+eb721b1f7b453679fb5d4df36f21fdd1 /home/acer/houman-rtech/devel/lib/python2.7/dist-packages/rt_exam/msg/_rotate.py
+988f2438aada1f670d230c7ad1454770 /home/acer/houman-rtech/devel/lib/python2.7/dist-packages/rt_exam/srv/__init__.py
+f76ab2afd3c89c020277ace00f939b11 /home/acer/houman-rtech/devel/lib/python2.7/dist-packages/rt_exam/srv/_move.py
 749890a61cc9835c1469dbfe265ae65f /home/acer/houman-rtech/devel/lib/python2.7/dist-packages/ur_msgs/msg/_Analog.py
 ee58326900d91b40bd3d30eee1351bd7 /home/acer/houman-rtech/devel/lib/python2.7/dist-packages/ur_msgs/msg/_Digital.py
 8872e05fc2d9cb18aa74af2d31dd9dc6 /home/acer/houman-rtech/devel/lib/python2.7/dist-packages/ur_msgs/msg/_IOStates.py
@@ -40,6 +46,8 @@ a42149e03570f58d72abaecf9afdd177 /home/acer/houman-rtech/devel/lib/python2.7/dis
 8c8cdd5f5b92f259157d320804f2e3a4 /home/acer/houman-rtech/devel/share/common-lisp/ros/motoman_msgs/msg/DynamicJointTrajectoryFeedback.lisp
 0a85e9daf2cdd39b371cf93d507a6ab8 /home/acer/houman-rtech/devel/share/common-lisp/ros/motoman_msgs/msg/DynamicJointsGroup.lisp
 afde65ffcdb6fb4d429277ee41b1544e /home/acer/houman-rtech/devel/share/common-lisp/ros/motoman_msgs/srv/CmdJointTrajectoryEx.lisp
+b2255437187d94a4bfadc8cf03bb2f8f /home/acer/houman-rtech/devel/share/common-lisp/ros/rt_exam/msg/rotate.lisp
+3704b89962e5198a94112b8b10effd8e /home/acer/houman-rtech/devel/share/common-lisp/ros/rt_exam/srv/move.lisp
 bfe18a8aff8d779b955142a0f71bf3bd /home/acer/houman-rtech/devel/share/common-lisp/ros/ur_msgs/msg/Analog.lisp
 5e0d8a6332045885bf95d12b84c74c1b /home/acer/houman-rtech/devel/share/common-lisp/ros/ur_msgs/msg/Digital.lisp
 fba1b66c7e98fc49c8df78d4ddb96f35 /home/acer/houman-rtech/devel/share/common-lisp/ros/ur_msgs/msg/IOStates.lisp
@@ -55,6 +63,8 @@ a0b36d45cd374d7fa831f088716e4b9f /home/acer/houman-rtech/devel/share/common-lisp
 3f79abeddd6b85781c3b75c0c461f3ac /home/acer/houman-rtech/devel/share/gennodejs/ros/motoman_msgs/msg/DynamicJointTrajectoryFeedback.js
 b774ebf50c96aee159fe0bbd91b59b11 /home/acer/houman-rtech/devel/share/gennodejs/ros/motoman_msgs/msg/DynamicJointsGroup.js
 d41b257bb03e21e1350672bb6942c282 /home/acer/houman-rtech/devel/share/gennodejs/ros/motoman_msgs/srv/CmdJointTrajectoryEx.js
+5f073763633de6fe7f77dbb6f4ae0178 /home/acer/houman-rtech/devel/share/gennodejs/ros/rt_exam/msg/rotate.js
+c0ae6c883b07d76f6848fd8092747517 /home/acer/houman-rtech/devel/share/gennodejs/ros/rt_exam/srv/move.js
 ca4c7ada43e8734cc76b583949f29f7d /home/acer/houman-rtech/devel/share/gennodejs/ros/ur_msgs/msg/Analog.js
 34d53c36f115fae8c1e380bb669fd0f8 /home/acer/houman-rtech/devel/share/gennodejs/ros/ur_msgs/msg/Digital.js
 2760cd6db0c3f561a32137af1276e36c /home/acer/houman-rtech/devel/share/gennodejs/ros/ur_msgs/msg/IOStates.js
@@ -71,6 +81,9 @@ b51a22db446cca4b21ef9a77fab213ca /home/acer/houman-rtech/devel/share/roseus/ros/
 457ac822ee4767e9d37c29bd6593cb6c /home/acer/houman-rtech/devel/share/roseus/ros/motoman_msgs/msg/DynamicJointTrajectoryFeedback.l
 0e17708896a0412b2a2fb430e3d223cf /home/acer/houman-rtech/devel/share/roseus/ros/motoman_msgs/msg/DynamicJointsGroup.l
 b487303d1d4f172f110813aba4031546 /home/acer/houman-rtech/devel/share/roseus/ros/motoman_msgs/srv/CmdJointTrajectoryEx.l
+0c45cb407b63eed0ec5d816c20eab3f7 /home/acer/houman-rtech/devel/share/roseus/ros/rt_exam/manifest.l
+8474b1a0f5f7f004aa5a18704cdf8c61 /home/acer/houman-rtech/devel/share/roseus/ros/rt_exam/msg/rotate.l
+6c1c6968ab21980fc2d4c501a72db780 /home/acer/houman-rtech/devel/share/roseus/ros/rt_exam/srv/move.l
 da1869219d1a5ae52fe5a7a2477dd22d /home/acer/houman-rtech/devel/share/roseus/ros/ur_msgs/manifest.l
 690d22a60df29c06cc11c65c30c51943 /home/acer/houman-rtech/devel/share/roseus/ros/ur_msgs/msg/Analog.l
 d9ea739ce01b31429aefee43da18e8ab /home/acer/houman-rtech/devel/share/roseus/ros/ur_msgs/msg/Digital.l
@@ -126,6 +139,13 @@ ad733a8152a85435d82244a0425c435e motoman/motoman_sia20d_support/CMakeFiles/run_t
 f15a70fd7c1c43b2c862ba88f24de3bd motoman/motoman_sia5d_support/CMakeFiles/_run_tests_motoman_sia5d_support_roslaunch-check_test_launch_test.xml
 13b3ea8710dc6ab03abe3de474460c30 motoman/motoman_sia5d_support/CMakeFiles/clean_test_results_motoman_sia5d_support
 f15a70fd7c1c43b2c862ba88f24de3bd motoman/motoman_sia5d_support/CMakeFiles/run_tests_motoman_sia5d_support_roslaunch-check_test_launch_test.xml
+ed3c9c4de4e797ad532847f01601bd32 rt_exam/CMakeFiles/_rt_exam_generate_messages_check_deps_move
+0a1a62e7be9398e6119bc127fb10f176 rt_exam/CMakeFiles/_rt_exam_generate_messages_check_deps_rotate
+3150d9a78575e056107794db3764795b rt_exam/CMakeFiles/rt_exam_generate_messages_cpp
+3150d9a78575e056107794db3764795b rt_exam/CMakeFiles/rt_exam_generate_messages_eus
+3150d9a78575e056107794db3764795b rt_exam/CMakeFiles/rt_exam_generate_messages_lisp
+3150d9a78575e056107794db3764795b rt_exam/CMakeFiles/rt_exam_generate_messages_nodejs
+3150d9a78575e056107794db3764795b rt_exam/CMakeFiles/rt_exam_generate_messages_py
 397376d61811382d50cccee6c552f69e universal_robot/ur10_e_moveit_config/CMakeFiles/_run_tests_ur10_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml
 482967da3881a1d1020d2d51e14c8331 universal_robot/ur10_e_moveit_config/CMakeFiles/clean_test_results_ur10_e_moveit_config
 397376d61811382d50cccee6c552f69e universal_robot/ur10_e_moveit_config/CMakeFiles/run_tests_ur10_e_moveit_config_roslaunch-check_tests_moveit_planning_execution.xml

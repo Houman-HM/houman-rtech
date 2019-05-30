@@ -602,6 +602,12 @@ my_r2d2_SOURCE_DIR:STATIC=/home/acer/houman-rtech/src/my_r2d2
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/kinetic/share/nav_msgs/cmake
 
+//Value Computed by CMake
+new_robot_BINARY_DIR:STATIC=/home/acer/houman-rtech/build/new_robot
+
+//Value Computed by CMake
+new_robot_SOURCE_DIR:STATIC=/home/acer/houman-rtech/src/new_robot
+
 //The directory containing a CMake configuration file for nodelet.
 nodelet_DIR:PATH=/opt/ros/kinetic/share/nodelet/cmake
 
@@ -695,11 +701,23 @@ roslz4_DIR:PATH=/opt/ros/kinetic/share/roslz4/cmake
 //The directory containing a CMake configuration file for rospack.
 rospack_DIR:PATH=/opt/ros/kinetic/share/rospack/cmake
 
+//Value Computed by CMake
+rospy_BINARY_DIR:STATIC=/home/acer/houman-rtech/build/rospy
+
 //The directory containing a CMake configuration file for rospy.
-rospy_DIR:PATH=/opt/ros/kinetic/share/rospy/cmake
+rospy_DIR:PATH=/home/acer/houman-rtech/devel/share/rospy/cmake
+
+//Value Computed by CMake
+rospy_SOURCE_DIR:STATIC=/home/acer/houman-rtech/src/rospy
 
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/kinetic/share/rostime/cmake
+
+//Value Computed by CMake
+rt_exam_BINARY_DIR:STATIC=/home/acer/houman-rtech/build/rt_exam
+
+//Value Computed by CMake
+rt_exam_SOURCE_DIR:STATIC=/home/acer/houman-rtech/src/rt_exam
 
 //The directory containing a CMake configuration file for rviz_visual_tools.
 rviz_visual_tools_DIR:PATH=/opt/ros/kinetic/share/rviz_visual_tools/cmake
@@ -1006,7 +1024,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=59
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=61
 //Path to CMake installation.
 CMAKE_ROOT:INTERNAL=/usr/share/cmake-3.5
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
